@@ -134,6 +134,8 @@
                             @endforeach
                         </ul>
 
+                        <!-- 06. Pagination -->
+                        {{ $data->links() }}
 
                     </div>
                 </div>
